@@ -25,7 +25,7 @@ public class Usuarios implements Serializable {
     private String password;
 
     @Temporal(TemporalType.DATE)
-    @Column(name = "birth_date")
+    @Column(name = "birth-date")
     private Date birthDate;
     @Column(name = "status")
     private Boolean status;
